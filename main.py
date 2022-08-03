@@ -52,7 +52,7 @@ async def with_puree(message: types.Message):
 
     else:
 
-        user_channel_status = await bot.get_chat_member(chat_id='Айди привата', user_id=message.from_user.id)
+        user_channel_status = await bot.get_chat_member(chat_id='1799340034', user_id=message.from_user.id)
 
         if user_channel_status["status"] != 'left':
 
